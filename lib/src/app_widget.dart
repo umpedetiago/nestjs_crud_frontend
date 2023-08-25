@@ -7,7 +7,9 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      title: 'frontend',
       theme: ThemeData(
+        useMaterial3: true,
         primarySwatch: Colors.amber,
       ),
       routerConfig: Modular.routerConfig,
